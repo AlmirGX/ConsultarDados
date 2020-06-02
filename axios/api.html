@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta de Animes</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Consulta de Animes</h1>
+    </header>
+
+    <section>
+
+        <div id="informacoes1">
+            <p>Digite o ID do Anime (1-50):</p>
+            <input type="number" name="numero" id="numero" min="1" max="50" autofocus>
+            <button id="pesquisar" onclick="pesquisar()">Pesquisar</button>
+        </div>
+
+        <div id="informacoes2">
+            <p id="resultados"></p>
+        </div>
+
+    </section>
+
+    <footer>
+        <p>2020 &copy; Consulta de Animes</p>
+    </footer>
+
+    <!-- Códigos JavaScript -->
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

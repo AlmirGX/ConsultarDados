@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(83, 83, 83);
+    font: normal 15pt Arial;
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+section {
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.300);
+}
+
+div#informacoes1 {
+    display: flex;
+    flex-direction: column;
+    max-width: 280px;
+    margin: auto;
+    text-align: center;
+}
+
+input#numero, select#listaDeNumeros {
+    padding: 10px 5px;
+    outline: none;
+    border-radius: 10px;
+    border: 1px solid grey;
+}
+
+button#pesquisar {
+    background-color: rgb(25, 150, 25);
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 10px 0;
+    transition: 0.3s;
+}
+
+button#pesquisar:hover {
+    background-color: rgb(19, 124, 19);
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-size: 0.5em;
+}
